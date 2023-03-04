@@ -1,27 +1,31 @@
-# RecipeShoppingApp
+# Overview
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This project is to create a software that has 2 major elements to it a shopping list and a recipe book. The user can store their own recipies using this app and quickly add ingredients into a shopping list.
 
-## Development server
+This software was written to demonstrate basic understanding of different aspects of Angular in an Angular project.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Development Environment
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Nodejs](https://nodejs.org/en/)
+- Bootstrap, downloaded locally for this project -> npm install --save bootstrap@3
+\
+\
+"Angular is an application-design framework and development platform for creating efficient and sophisticated single-page apps." Meaning that when someone clicks on a link the page is not changed but the code itself is changed keeping the page the same, so no more loading screens! 
+\
+"Node.js is similar in design to, and influenced by, systems like Ruby's Event Machine and Python's Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library." 
+\
+Bootstrap is a library you can add into your project to have easily made CSS code, instead of doing it yourself this library has pre built CSS methods to add to your code.
+# Useful Websites
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Angular Docs](https://angular.io/docs)
+- [Node Docs](https://nodejs.org/en/docs/)
+- [Udemy Course on Angular](https://www.udemy.com/course/the-complete-guide-to-angular-2/)
 
-## Running unit tests
+# Future Work
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Interaction between shopping list and recipes
+- Integration of user input in making a new recipe
+- More color!
